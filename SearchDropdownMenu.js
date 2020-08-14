@@ -40,7 +40,7 @@ class SearchDropdownMenu extends React.Component {
 }
 
 SearchDropdownMenu.propTypes = {
-  rightLink: PropTypes.PropTypes.node
+  rightLink: PropTypes.PropTypes.node,
 };
 
 export default withRouter(SearchDropdownMenu);
