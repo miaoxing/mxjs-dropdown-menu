@@ -1,8 +1,15 @@
+/* global $ */
 import React from 'react';
 import 'public/comps/dropdown-menu/dropdown-menu.css';
 import 'public/comps/dropdown-menu/dropdown-menu';
+import PropTypes from 'prop-types';
 
 class DropdownMenu extends React.Component {
+  static propTypes = {
+    rightLink: PropTypes.node,
+    children: PropTypes.node,
+  };
+
   componentDidMount() {
     $('[data-toggle="dropdown"]').dropdownmenu();
   }

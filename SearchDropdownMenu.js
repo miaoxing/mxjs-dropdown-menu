@@ -1,3 +1,4 @@
+/* global $ */
 import React from 'react';
 import DropdownMenu from 'components/DropdownMenu';
 import {withRouter} from 'react-router-dom';
@@ -6,6 +7,12 @@ import PropTypes from 'prop-types';
 import appendUrl from 'append-url';
 
 class SearchDropdownMenu extends React.Component {
+  static propTypes = {
+    onSubmit: PropTypes.func,
+    history: PropTypes.object,
+    children: PropTypes.node,
+  };
+
   componentDidMount() {
     $('.js-form').loadQuery();
   }

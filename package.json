@@ -7,11 +7,12 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "devDependencies": {
-    "@miaoxing/dev": "^6.4.0"
-  },
   "jest": {
     "preset": "jest-preset-miaoxing"
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^6.4.0",
+    "prop-types": "^15.7.2"
   },
   "ciDependencies": {
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
