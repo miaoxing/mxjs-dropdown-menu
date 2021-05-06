@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test basic 1`] = `
+<div>
+  <div
+    class="filter-dropdown nav-dropdown"
+  >
+    <ul
+      class="nav-tabs tabs-justified border-y"
+    >
+      <li
+        class="dropdown"
+      >
+        <a
+          class="text-active-primary"
+          data-target="#search"
+          data-toggle="dropdown"
+        >
+          <span>
+            搜索
+          </span>
+            
+          <i
+            class="icon small icon-chevron-down"
+          />
+        </a>
+      </li>
+    </ul>
+    <div
+      class="menu-content"
+    >
+      <div
+        class="dropdown-menu fade border-bottom"
+        id="search"
+      >
+        <div
+          class="menu sub"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

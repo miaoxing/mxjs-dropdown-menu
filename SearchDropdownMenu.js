@@ -1,8 +1,8 @@
 /* global $ */
 import React from 'react';
-import DropdownMenu from 'components/DropdownMenu';
+import DropdownMenu from './DropdownMenu';
 import {withRouter} from 'react-router-dom';
-import 'load-query';
+//import 'load-query';
 import PropTypes from 'prop-types';
 import appendUrl from 'append-url';
 
@@ -14,7 +14,7 @@ class SearchDropdownMenu extends React.Component {
   };
 
   componentDidMount() {
-    $('.js-form').loadQuery();
+    //$('.js-form').loadQuery();
   }
 
   handleSubmit(e) {
