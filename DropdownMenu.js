@@ -1,12 +1,12 @@
 // TODO
 // 1. 移除 jQuery
 // 2. 引入类库
-import React from 'react';
+import { Component } from 'react';
 //import 'public/comps/dropdown-menu/dropdown-menu.css';
 //import 'public/comps/dropdown-menu/dropdown-menu';
 import PropTypes from 'prop-types';
 
-class DropdownMenu extends React.Component {
+class DropdownMenu extends Component {
   static propTypes = {
     rightLink: PropTypes.node,
     children: PropTypes.node,
