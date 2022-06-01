@@ -1,3 +1,14 @@
+## [0.2.3](https://github.com/miaoxing/mxjs-dropdown-menu/compare/v0.2.2...v0.2.3) (2022-06-01)
+
+
+
+
+
+### Dependencies
+
+* **append-url:** upgrade from `1.0.16` to `1.0.17`
+* **@miaoxing/dev:** upgrade from `8.1.0` to `8.1.1`
+
 ## [0.2.2](https://github.com/miaoxing/mxjs-dropdown-menu/compare/v0.2.1...v0.2.2) (2022-02-05)
 
 
