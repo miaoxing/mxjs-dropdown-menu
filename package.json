@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/dropdown-menu",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -13,10 +13,10 @@
   "dependencies": {
     "react-router-dom": "^5.2.0",
     "prop-types": "^15.7.2",
-    "append-url": "^1.0.24"
+    "append-url": "^1.0.25"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^8.2.4",
+    "@miaoxing/dev": "^9.0.0",
     "@testing-library/react": "^11.2.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
