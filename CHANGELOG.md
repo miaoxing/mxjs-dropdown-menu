@@ -1,3 +1,10 @@
+## [0.2.13](https://github.com/miaoxing/mxjs-dropdown-menu/compare/v0.2.12...v0.2.13) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([55cad5c](https://github.com/miaoxing/mxjs-dropdown-menu/commit/55cad5caccaad90baba771a1e58029d955d0370d))
+
 ## [0.2.12](https://github.com/miaoxing/mxjs-dropdown-menu/compare/v0.2.11...v0.2.12) (2024-01-08)
 
 
